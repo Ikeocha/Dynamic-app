@@ -1,0 +1,31 @@
+{
+  "menu": [
+    {
+      "name": "Home",
+      "component": "Home"
+    },
+    {
+      "name": "Profile",
+      "component": "Profile"
+    },
+    {
+      "name": "Flow Diagram",
+      "component": "FlowDiagram"
+    }
+
+  ],
+  "components": {
+    "Home": {
+      "version": "v1",
+      "path": "./components/HomeV1"
+    },
+    "Profile": {
+      "version": "v2",
+      "path": "./components/ProfileV2"
+    },
+    "FlowDiagram": {
+      "path": "./components/FlowDiagram"
+    }
+   
+}
+}
